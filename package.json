@@ -1,0 +1,20 @@
+{
+    "name": "tt-snippets",
+    "displayName": "tt-snippets",
+    "description": "A collection of Baobab Health Trust's Touchscreen Toolkit snippets",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
