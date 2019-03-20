@@ -1,1 +1,22 @@
-{}
+{
+  "TT Select": {
+    "prefix": "!tt_select",
+    "body": [
+      "<select id='' name='' tt_onload='' tt_onunload='' ttPageStyleClass='' tt_requireNextClick='false' helpText='' condition=''>",
+      "<option value=''></option>",
+      "<option value=''></option>",
+      "</select>"
+    ],
+    "description": "Touchscreen Toolkit generic select snippet."
+  },
+  "TT AJAX Select": {
+    "prefix": "!tt_ajax_select",
+    "body": [
+      "<select id='' name='' tt_onload='' tt_onunload='' ttPageStyleClass='' tt_requireNextClick='false' helpText='' condition='' ajaxurl=''>",
+      "<option value=''></option>",
+      "<option value=''></option>",
+      "</select>"
+    ],
+    "description": "Touchscreen Toolkit select snippet that fetches options from url specified under the ajaxurl attribute."
+  }
+}
