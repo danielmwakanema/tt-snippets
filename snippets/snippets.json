@@ -28,5 +28,12 @@
       "</select>"
     ],
     "description": "Touchscreen Toolkit select snippet that fetches options from url specified under the ajaxurl attribute."
+  },
+  "TT Number Input": {
+    "prefix": "tt_number_input",
+    "body": [
+      "<input type='text' field_type='number' tt_pagestyleclass='NumbersOnly' id='' name='' tt_onload='' tt_onunload='' helptext='' condition='' />"
+    ],
+    "description": "Touchscreen Toolkit select snippet that fetches options from url specified under the ajaxurl attribute."
   }
 }
