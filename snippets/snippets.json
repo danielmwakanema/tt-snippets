@@ -1,8 +1,18 @@
 {
   "TT Select": {
-    "prefix": "!tt_select",
+    "prefix": "tt_select",
     "body": [
-      "<select id='' name='' tt_onload='' tt_onunload='' ttPageStyleClass='' tt_requireNextClick='false' helpText='' condition=''>",
+      "<select id='' name='' tt_onload='' tt_onunload='' ttpagestyleclass='NoKeyboard' tt_requirenextclick='false' helptext='' condition=''>",
+      "<option value=''></option>",
+      "<option value=''></option>",
+      "</select>"
+    ],
+    "description": "Touchscreen Toolkit generic select snippet."
+  },
+  "TT Select with No FreeText": {
+    "prefix": "tt_select_no_free_text",
+    "body": [
+      "<select id='' name='' tt_onload='' tt_onunload='' ttpagestyleclass='NoKeyboard' allowfreetext='false' tt_requirecextclick='false' helptext='' condition=''>",
       "<option value=''></option>",
       "<option value=''></option>",
       "</select>"
@@ -10,9 +20,9 @@
     "description": "Touchscreen Toolkit generic select snippet."
   },
   "TT AJAX Select": {
-    "prefix": "!tt_ajax_select",
+    "prefix": "tt_ajax_select",
     "body": [
-      "<select id='' name='' tt_onload='' tt_onunload='' ttPageStyleClass='' tt_requireNextClick='false' helpText='' condition='' ajaxurl=''>",
+      "<select id='' name='' tt_onload='' tt_onunload='' ttpagestyleclass='' tt_requirenextclick='false' helptext='' condition='' ajaxurl=''>",
       "<option value=''></option>",
       "<option value=''></option>",
       "</select>"
