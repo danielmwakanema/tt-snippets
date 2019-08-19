@@ -42,5 +42,12 @@
       "<input field_type='date' id='' name='' tt_onload='' tt_onunload='' helptext='' condition='' />"
     ],
     "description": "Touchscreen Toolkit select that allows dates only."
+  },
+  "TT Text Input": {
+    "prefix": "tt_text_input",
+    "body": [
+      "<input type='text' id='' name='' tt_onload='' tt_onunload='' helptext='' condition='' />"
+    ],
+    "description": "Touchscreen Toolkit text input."
   }
 }
