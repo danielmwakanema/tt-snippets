@@ -34,6 +34,13 @@
     "body": [
       "<input type='text' field_type='number' tt_pagestyleclass='NumbersOnly' id='' name='' tt_onload='' tt_onunload='' helptext='' condition='' />"
     ],
-    "description": "Touchscreen Toolkit select snippet that fetches options from url specified under the ajaxurl attribute."
+    "description": "Touchscreen Toolkit number input that allows numbers only."
+  },
+  "TT Date Input": {
+    "prefix": "tt_date_input",
+    "body": [
+      "<input field_type='date' id='' name='' tt_onload='' tt_onunload='' helptext='' condition='' />"
+    ],
+    "description": "Touchscreen Toolkit select that allows dates only."
   }
 }
